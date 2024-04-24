@@ -5,6 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="white"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-style" content="Hello">
+  <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
 </head>
 <body class="fullscreen">
   <div class="container">
@@ -17,7 +24,9 @@
       <p id="date"></p>
     </main>
   </div>
-  
+
+    <script src="js/main.js"></script>
+
   <script>
     //let msg = document.getElementById("name").value;
     document.getElementById("enterBtn").addEventListener("click", getMsg);
